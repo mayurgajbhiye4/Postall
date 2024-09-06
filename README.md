@@ -1,1 +1,1 @@
-#Postall - post to every social media of choice
+# Postall - post to every social media of choice
