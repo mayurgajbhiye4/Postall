@@ -1,0 +1,22 @@
+.slider{
+    position: relative;
+    width: 850px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 10px 25px 25px;
+}
+.slider img{
+    width: 100%;
+    display: none;
+}   
+img.displaySlide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from {opacity: 0.5}
+    to {opacity: 1}
+}
