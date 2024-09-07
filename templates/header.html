@@ -10,11 +10,11 @@
 <body>
     <div class="navbar">
         <div class="navbar-logo">
-          PostAll
+          <a href = "{% url 'home' %}">PostAll</a>
         </div>
         <div class="navbar-right">
-          <a type = "button" class="login" href="#">Log in</a>
-          <a type = "button" class="sign-up" href="#">Sign Up</a>
+          <a type = "submit" class="login" href="{% url 'login' %}">Log in</a>
+          <a type = "submit" class="sign-up" href="{% url 'signup' %}">Sign Up</a>
         </div>
       </div>
    

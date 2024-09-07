@@ -10,8 +10,16 @@ h1{
     padding-top: 20px;
     font-size:4rem;
     color: hsl(213, 85%, 23%);
+}
+.loginPage{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-color: hsl(0, 17%, 95%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px;
 }   
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,16 +27,13 @@ h1{
     padding: 10px 20px;
     border-bottom: 1px solid hsl(0, 0%, 88%);
 }
-.navbar-logo {
+.navbar-logo a{
     display: flex;
+    text-decoration: none;
     align-items: center;
     font-size: 1.7rem;
     font-weight: 700;
     color: hsl(202, 84%, 17%);
-}
-.navbar-logo img {
-    height: 24px;
-    margin-right: 20px;
 }
 .navbar-right {
     display: flex;
