@@ -21,6 +21,8 @@ from postall import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homePage, name = "home"),
+    path('app/', views.appPage, name = "app"),
     path('login/', views.loginPage, name = "login"),
+    path('logout/', views.logoutPage, name = "logout"),
     path('signup/', views.signUp, name = "signup"),
 ]
