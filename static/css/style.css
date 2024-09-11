@@ -12,12 +12,7 @@ h1{
     color: hsl(213, 85%, 23%);
 }
 .loginPage{
-    height: 400px;
-    width: 400px;
-    margin: auto;
     background-color: hsl(0, 17%, 95%);
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px;
 }   
 .navbar{
     display: flex;

@@ -13,14 +13,14 @@
           <a href = "{% url 'home' %}">PostAll</a>
         </div>
         <div class="navbar-right">
-          {% if request.user.is_authenticated %}
+          {% if user.is_authenticated %}
+          <span class = "navbar-text">Logged in as {{ user.first_name }}</span>
           <a type = "submit" class="logout" href="{% url 'logout' %}">Log Out</a>
           {% else %}
           <a type = "submit" class="login" href="{% url 'login' %}">Log In</a>
-          {% endif %}
           <a type = "submit" class="sign-up" href="{% url 'signup' %}">Sign Up</a>
-         
-        </div>
+          {% endif %}  
+        </div>  
       </div>
    
 </body>
