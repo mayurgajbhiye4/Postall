@@ -1,0 +1,17 @@
+.btn-outline-custom{
+    border-color: #000;
+}
+.btn-outline-custom:hover{
+    background-color: hsl(213, 71%, 57%);
+}
+.social-accounts{
+    background-color: hsl(214, 70%, 90%);
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30px;
+}
+.createPost{
+    background-color: hsl(214, 70%, 90%);
+    border-radius: 20px;
+}

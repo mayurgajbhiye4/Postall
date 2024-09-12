@@ -11,6 +11,19 @@ h1{
     font-size:4rem;
     color: hsl(213, 85%, 23%);
 }
+.post a{
+    text-decoration: none;
+    background-color: hsl(208, 95%, 30%);
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 50px ;
+}
+.post a:hover{
+    background-color: hsl(208, 95%, 40%);
+    color: white;
+}
 .loginPage{
     background-color: hsl(0, 17%, 95%);
 }   
