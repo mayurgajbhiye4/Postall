@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -143,9 +144,9 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = 536186362431547
+SOCIAL_AUTH_FACEBOOK_KEY = config('FACEBOOK_APP_ID')
 
-SOCIAL_AUTH_FACEBOOK_SECRET = 'e2be517f8d49750a05d6c0faa85fc1f5'   
+SOCIAL_AUTH_FACEBOOK_SECRET = config('FACEBOOK_APP_SECRET') 
 
 SOCIAL_AUTH_FACEBOOK_SCOPE = [
     'email', 
