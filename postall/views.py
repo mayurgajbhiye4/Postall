@@ -25,3 +25,6 @@ def signUp(request):
         form = signupForm()
 
     return render(request, "registration/signup.html", {'form':form})
+
+
+

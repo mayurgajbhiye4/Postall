@@ -149,7 +149,8 @@ SOCIAL_AUTH_FACEBOOK_KEY = config('FACEBOOK_APP_ID')
 SOCIAL_AUTH_FACEBOOK_SECRET = config('FACEBOOK_APP_SECRET') 
 
 SOCIAL_AUTH_FACEBOOK_SCOPE = [
-    'email', 
+    'email',
+    'user_link',
     'public_profile',
 ]
 
